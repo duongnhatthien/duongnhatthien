@@ -10,8 +10,8 @@ const CONFIG = {
     question: 'Trên thế giới hơn 7 tỉ người mà sao chị lại nhớ emmm <3',
     btnReply: 'Gửi cho Thiên <3',
     reply: 'Vì chị lỡ thích em ròy <3',
-    mess: 'Emm biết mà 🥰. Êuu chụy nhiều nhiều 😘😘',
-    messDesc: '',
+    mess: 'Emm biết mà 🥰, em cũng thế ~~',
+    messDesc: 'Em hay quên lắm nhưng mà nhớ chịiii :>',
     btnAccept: 'Okiiiii lun <3',
     messLink: 'https://www.facebook.com/iwillcoder.203/' //link mess của các bạn. VD: https://www.facebook.com/messages/t/100014188333536
 }
