@@ -119,8 +119,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     
-        var audio = new Audio('sound/sound.mp3');
-        audio.play();
+       
     
     Swal.fire({
         title: CONFIG.question,
