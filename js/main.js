@@ -1,5 +1,7 @@
+
 $(document).ready(function() {
     // process bar
+
     setTimeout(function() {
         firstQuestion();
         $('.spinner').fadeOut();
@@ -8,11 +10,11 @@ $(document).ready(function() {
             'overflow': 'visible'
         });
     }, 600);
-})
+})  
 
 function init() {
     document.getElementById('titleWeb').innerHTML = CONFIG.titleWeb
-    $('#title').text(CONFIG.title)
+    $('#t   itle').text(CONFIG.title)
     $('#desc').text(CONFIG.desc)
     $('#yes').text(CONFIG.btnYes)
     $('#no').text(CONFIG.btnNo)
@@ -39,6 +41,11 @@ function firstQuestion() {
         imageAlt: 'Custom image',
         confirmButtonText: CONFIG.btnIntro
     }).then(function() {
+        var audio = new Audio('sound/tick.mp3');
+        audio.play();
+        
+            var audio = new Audio('sound/sound.mp3');
+            audio.play();
         $('.content').show(200);
     })
 }
@@ -79,6 +86,7 @@ $('#no').mousemove(function() {
     n++;
 });
 $('#no').click(() => {
+   
     if (screen.width >= 900)
         switchButton();
 })
@@ -105,9 +113,15 @@ function textGenerate() {
 }
 
 // show popup
+
+   
 $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
+    
+        var audio = new Audio('sound/sound.mp3');
+        audio.play();
+    
     Swal.fire({
         title: CONFIG.question,
         html: true,
