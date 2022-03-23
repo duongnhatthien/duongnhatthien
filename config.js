@@ -4,7 +4,7 @@ const CONFIG = {
     introDesc: `Giờ em quá nhớ chị ròy..phải làm seo..phải làm seo :>`,
     btnIntro: '^-^ Hihi ^-^',
     title: 'Chị cũng nhớ em đúng khummm  🥰',
-    desc: '',
+    desc: 'Chị cũng nhớ em đúng khummm  🥰',
     btnYes: 'Nhớ lắm <33',
     btnNo: 'Không nha :3',
     question: 'Trên thế giới hơn 7 tỉ người mà sao chị lại nhớ emmm <3',

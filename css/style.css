@@ -59,7 +59,8 @@ header h2 {
 header h4 {
     font-family: 'Pacifico';
     text-align: center;
-    color: chartreuse;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
 }
 
 @media only screen and (max-width: 500px) {
